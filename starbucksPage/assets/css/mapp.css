@@ -1,0 +1,581 @@
+/*상단 관련 css*/
+
+/*웹폰트*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+ /* header 영역 시작*/
+ .top__header{
+     height: 100px;
+     border-bottom: 1px solid grey;
+ }
+ 
+ .top__header a{
+     
+     color: black;
+     font-weight: bold;
+ }
+ 
+
+
+.dropdown{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+
+
+ .left__nav{
+ margin-top: 25px;
+ margin-left: 5%; 
+ }
+ .left__nav li{
+ 
+     padding-left: 20px;
+ }
+ 
+ .left__nav a:hover {
+ 
+     color: #007042;
+     background-color: #2c2a29;  
+ 
+ }
+ 
+ 
+ .right__nav{
+ float: right;
+ margin-right: 5%;
+ margin-top: 35px;
+ }
+ 
+ .right__nav a{
+ color: black;
+ padding-left: 15px;
+ 
+ }
+ 
+ .right__nav a:hover{
+ 
+     text-decoration: none;
+     color: #007042;
+ 
+ }
+ 
+ 
+ .top__logo{
+     position: absolute;
+     background-color: transparent;
+     width: 100px;
+     top: 0;
+     left: 46%;
+ }
+ .hideOverPhone{
+         display:none;
+     }
+ /* header 영역 종료*/
+
+ /*bottom-nav css 시작*/
+ .bottom-nav{
+     position: relative;
+     width: 100%;
+     height: 400px;
+     background-color: #f7f7f7;
+ }
+ 
+ .site__map{
+     float: left;
+     width: 35%;
+     padding-top: 50px;
+ }
+ 
+ .site__map li{
+     padding-top: 10px;
+ }
+ 
+ .customer__center{
+     float: left;
+     width: 35%;
+     padding-top: 50px;
+ }
+ 
+ .customer__center li{
+     padding-top: 10px;
+ }
+ 
+ .social__network{
+     float: left;
+     width: 30%;
+     padding-top: 60px;
+ }
+ 
+ .etc__pointer{
+ 
+ cursor: pointer;
+ 
+ }
+ .fa-3x{
+     color: black;
+ }
+ .etc__pointer:hover{
+     font-size: 30px;
+     
+ }
+ /* bottom css 종료 */
+ 
+ 
+
+
+ 
+ 
+ /*footer css 시작*/
+ 
+ .footer{
+     position: relative;
+     width: 100%;
+     height: 150px;
+     background-color: #363636;
+     text-align: center;    
+ }
+ 
+ .footer ul{
+     padding-top: 10px;
+     display: inline-block;
+ }
+ .footer, .footer a{
+     
+     color: white;
+ }
+ 
+ 
+ 
+ .footer .nav .navbar-link:hover{
+     color: black;
+ }
+ 
+ 
+ 
+ .footer-nav li{
+     border-right: 1px solid gray;
+ }
+ 
+ .footer-info li {
+     color: #999;
+     font-size: 13px;
+     padding-top: 10px;
+     padding-right: 70px;
+ }
+ 
+ .copyrights p{
+     
+     padding-top: 10px;
+ }
+ 
+ /*footer css 종료*/
+
+ /* background fixed*/
+ .row{
+    /*border: 1px solid red;*/
+ }
+
+ .row > div {
+  /*  border: 1px solid orange;*/
+ }
+
+ #top{
+    padding: 90px;
+ }
+
+ #bg{
+background: url(../images/sbg.jpg) center center fixed no-repeat #45434c;
+background-size:auto auto;
+height: 350px;
+position: relative;
+}
+
+#bg2{
+background: url(../images/secbg.jpg) center center fixed no-repeat #45434c;
+background-size:auto auto;
+height: 700px;
+position: relative;
+}
+
+#bg3{
+background: url(../images/qwe.jpg) center center fixed no-repeat #45434c;
+background-size:auto auto;
+height: 500px;
+position: relative;
+}
+
+#bottom-ment{
+    /*padding-bottom: 10%*/
+}
+    
+.adress{
+    color:#F6ECD6;
+    background-color: #050608; 
+}
+
+/* middle 카드 애니메이션 커피추출 6가지 */
+/*첫번째 카드*/
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a1 {
+  z-index: 2;
+}
+
+.back1 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a1 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back1 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+/*첫번째 카드 끝 */
+
+/*두번째 카드 시작*/
+
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a2 {
+  z-index: 2;
+}
+
+.back2 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a2 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back2 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/*두번째 카드 끝*/
+
+
+
+
+
+/*세번째 카드 시작*/
+
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a3 {
+  z-index: 2;
+}
+
+.back3 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a3 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back3 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/*세번째 카드 끝*/
+
+
+
+
+
+/*네번째 카드 시작*/
+
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a4 {
+  z-index: 2;
+}
+
+.back4 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a4 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back4 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/*네번째 카드 끝*/
+
+
+
+
+
+/*다섯번째 카드 시작*/
+
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a5 {
+  z-index: 2;
+}
+
+.back5 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a5 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back5 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/*다섯번째 카드 끝*/
+
+
+
+
+
+/*여섯번째 카드 시작*/
+
+.panel {
+  position: relative;
+  width: 100px;
+  height: 117px;
+  margin: 0 auto;
+  background-color: #050608;
+
+}
+
+.card {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.a6 {
+  z-index: 2;
+}
+
+.back6 {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.panel:hover .a6 {
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.panel:hover .back6 {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/*여섯번째 카드 끝*/
+
+div > .panel {
+    padding-left: 130px;
+}

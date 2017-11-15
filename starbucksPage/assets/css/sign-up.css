@@ -1,0 +1,225 @@
+/*css요소*/
+.block {
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.bold{
+    font-weight: bold;
+}
+
+/*본문*/
+.sign-up-content{
+    margin: 60px auto;
+}
+
+#signUpForm {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+    padding: 20px 10px;
+}
+
+#signUpForm fieldset {
+	width: 100%;
+}
+
+/*input custom css*/
+#signUpForm input[type="text"], #signUpForm input[type="password"] {
+	height: 40px;
+	border: 1px solid #ddd;
+    border-radius: 3px;
+    border-box;
+    display: inline-block;
+    /* margin-top: 10px; */
+    outline: none;
+    padding: 15px;
+}
+
+/*인풋 그룹*/
+#id.form-control:focus, #pwd.form-control:focus, #pwdChk.form-control:focus, #email.form-control:focus, #phone.form-control:focus, #nickname.form-control:focus{
+    border-color: #006633;
+}
+.su-form-group {
+    padding: 0 20px;
+}
+
+.form-group.inline-block{
+    padding: 0;
+    margin: 0;
+}
+
+/*회원가입 가이드 이미지*/
+.guide-img {
+    padding-top: 20px;
+	text-align: center;
+}
+
+.guide-img + p {
+	text-align: center;
+	background: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #777;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 30px 20px 30px;
+    margin-bottom: 30px;
+}
+
+/*성별*/
+.choose-gender {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 22.711%;
+	vertical-align: middle;
+}
+
+.gender {
+	color: #b0b0b0;
+    float: left;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 50%;
+    text-decoration: none;
+}
+
+.gender:hover{
+	text-decoration: none;
+	background: #f4f4f2;
+    color: #222;
+}
+
+/*선택된 성별*/
+.gender.gender-on{
+    text-decoration: none;
+    background: #f4f4f2;
+    color: #222;
+}
+
+
+.choose-gender:after {
+	clear: both;
+}
+
+/*필수정보입력 팝오버 버튼*/
+.su-tooltip {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+	background: url('../images/icon_mark_point.png') center center no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+}
+
+/*닉네임 영역*/
+.nick-img img{
+	width: 100%;
+}
+.nick-txt{
+	background: #edebe7;
+    color: #666;
+    line-height: 1.6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*부연 설명 텍스트*/
+.su-txt {
+	color: #006633;
+    line-height: 1.4;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 15px;
+    letter-spacing: -1px;
+}
+.su-txt:before {
+	content: '*';
+    display: block;
+    float: left;
+    margin-left: -15px;
+}
+.help-block.block{
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.help-block-bdaySelect{
+    display: none;
+    color: #a94442;
+}
+
+/*체크박스*/
+.checkbox label{
+    padding-left: 25px;
+    font-size: 13px;
+}
+.label-fixed-color{
+    color: #333;
+}
+.check-accept:before {
+	content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mem_check_off.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.check-accept-on:before {
+	content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mem_check_on.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+/*폼 입력 피드백 글리피콘*/
+.su-form-group{
+    position: relative;
+}
+
+.form-control-feedback{
+    display: none;
+    margin: 5px 20px 0 0;
+}
+
+/*가입버튼*/
+#btnSubmit{
+    margin: 10px 0 30px;
+    background-color: #007042;
+}
+
+/*모달*/
+.btn-find-addr{
+    padding: 9px 12px;
+}
+.btn-input-addr{
+    background-color: #007042;
+}
+.addr-well{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.table-addr{
+    margin: 0;
+}
+
+@media(max-width: 778px){
+    #name{width: 75%;}
+
+}

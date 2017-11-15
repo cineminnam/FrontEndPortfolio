@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>detailPage3.html</title>
+
+<!-- get css files -->
+<link rel="stylesheet" href="./assets/css/bootstrap.css"/>
+<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/main.css">
+<link rel="stylesheet" href="./assets/css/main-medium.css">
+<link rel="stylesheet" href="./assets/css/main-phone.css">
+<link rel="stylesheet" href="./assets/css/main-tablet.css">
+<link rel="stylesheet" href="./assets/css/bottom-nav.css">
+<!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+<link rel="stylesheet" href="./assets/css/detail2.css">
+
+<!-- get js files -->
+<script src="./assets/js/jquery-3.2.1.js"></script>
+<script src="./assets/js/bootstrap.js"></script>
+<script src="./assets/js/jquery.zoom.js"></script>
+</head>
+
+<body>
+
+<!-- 탑 헤더 시작-->
+<header class="top__header">
+
+<nav class="navbar navbar-defualt">
+
+  <a class="top__frontImage" href="index.html"><img class="top__logo" src="./assets/images/starbucks-coffee-logo-preview.png" alt=""></a>
+
+
+   <ul class="nav navbar-nav left__nav">
+        <li><a href="#menu__container" id="top__navMenu">Menu</a></li>
+        <li><a href="#event__container" id="top__navEvent">Event</a></li>
+        <li><a href="#store__container" id="top__navStore">Store</a></li>
+        <li><a href="#faq__container" id="top__navFAQ">FAQ</a></li>
+    </ul>
+    
+
+     
+     <ul class="nav navbar-nav right__nav">
+        
+        <a class="hideleInPhone" href="#">Customer Center</a>
+        <a class="hideleInPhone" href="">Business</a>
+        <div class="dropdown">
+      <a id="dLabel" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>    
+        <ul class="dropdown-menu " aria-label="dLabel">
+        <li><a href="loginpage.html">로그인</a></li>
+        <li><a href="sign-up.html">회원가입</a></li>
+        </ul>
+    </div>
+        <a href="#"  role="button" ><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>    
+        <a href="javascript: if(confirm('로그인이 필요합니다. 지금 로그인 하시겠습니까?') == true){
+                                window.location.href= 'loginpage.html'
+                            };"  role="button" ><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+            
+    <div class="dropdown hideOverPhone">
+      <a id="dLabel" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>    
+        <ul class="dropdown-menu " aria-label="dLabel">
+        <li><a href="#menu__container" id="top__navMenu">Menu</a></li>
+        <li><a href="#event__container" id="top__navEvent">Event</a></li>
+        <li><a href="#store__container" id="top__navStore">Store</a></li>
+        <li><a href="#faq__container" id="top__navFAQ">FAQ</a></li>
+        </ul>
+         </div>
+    </ul>
+    
+</nav>
+
+</header>
+<!--탑 헤더 종료-->
+
+<!-- fastlink -->
+<div id="top" class="container">  
+    <div class="col-lg-12">
+        <div id="fastlink" class="Qinline hidden-md hidden-sm hidden-xs">
+            <a href="#"><span class="fa fa-home"></span></a>
+                >
+            <a href="#">MENU</a>
+                >
+            <a href="#">2017 크리스마스 음료</a>
+                >
+            <a href="#">토피넛 크런치 라떼</a>
+        </div>
+    </div>
+</div>
+<!-- fastlink 종료 -->
+
+<!-- 전체 컨테이너 -->
+<div class="container">
+    <div class="row">
+        <!-- img -->
+        <div class="col-sm-6">
+            <br/><br/>
+            <span class="zoom" id="det_crc">
+                <img src="./assets/images/det_crc.jpg" width="450" height="450" />
+            </span>
+        </div>
+        <!-- 우측 div -->
+        <div class="col-sm-6">
+            <h2>토피넛 크런치 라떼</h2>
+            <p class="text-center">Toffee Nut Crunch Latte</p>
+            <br/>
+            <div class="col-sm-12">
+                <form action="">
+                    <fieldset>
+                        <legend>2017 크리스마스 음료</legend>
+                        <select name="esBevSel" id="esBevSel" onchange="location=this.value;">
+                            <option value="#opNone">선택</option>
+                            <option value="detailPage2.html">베리 트윙클 모카</option>
+                            <option value="detailPage3.html">토피넛 크런치 라떼</option>
+                            <option value="detailPage4.html">발렌시아 오렌지 티 라떼</option>
+                        </select>
+                    </fieldset>
+                </form>
+                <br/>
+                <form action="">
+                <fieldset>
+                    <legend>제품 영양 정보</legend>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <ul>
+                                <li class="kcal">
+                                    <dl>
+                                        <dt>1회 제공량 (kcal)</dt>
+                                        <dd>290</dd>
+                                    </dl>
+                                </li>
+                                <li class="sat_FAT">
+                                    <dl>
+                                        <dt>포화지방 (g)</dt>
+                                        <dd>9</dd>
+                                    </dl>
+                                </li>
+                                <li class="protein">
+                                    <dl>
+                                        <dt>단백질 (g)</dt>
+                                        <dd>9</dd>
+                                    </dl>
+                                </li>       
+                            </ul>               
+                        </div>
+                        <div class="col-xs-6">
+                            <ul>
+                                <li class="sodium">
+                                    <dl>
+                                        <dt>나트륨 (mg)</dt>
+                                        <dd>230</dd>
+                                    </dl>
+                                </li>
+                                <li class="sugars">
+                                    <dl>
+                                        <dt>당류 (g)</dt>
+                                        <dd>29</dd>
+                                    </dl>
+                                </li>
+                                <li class="caffeine last">
+                                    <dl>
+                                        <dt>카페인 (mg)</dt>
+                                        <dd>75</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div> 
+                        </div>
+                        <div class="alertM">
+                    <p>알레르기 유발 요인: 우유</p>
+                    </div>
+                            <div class="spacer"></div>
+                                <div class="row">
+                                <div class="col-xs-6">
+                                </div>
+                                <div class="col-xs-6">
+                                    <button class="btn btn-block" id="orderBtn">주문하기</button>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>  
+                </fieldset>
+                </form>
+            </div>
+            <br/>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="mainCon">
+        <div class="spacer"></div>
+        <p>스타벅스의 전통적인 음료로 불리는 토피 넛 라떼가 크리스마스 시즌을 맞이해 더욱 달콤하고 크런치하게 돌아왔습니다. <br/>카라멜과 아몬드에서 느껴지는 고소한 달콤함과 은은한 버터 풍미가 에스프레소 샷과 어우리진 토피 넛 크런치 라떼를 만나보세요!  <br/><br/>
+
+        ※ 사진은 이미지 컷이므로 실제와 다를 수 있습니다.</p>
+        <div class="spacer2"></div>
+    </div>
+</div>
+
+
+<!-- bottom-nav 영역 시작 -->
+  <section class="container bottom-nav">
+    <div class="bn-wrap">
+
+        <!-- bottom-nav 메뉴 영역 -->
+        <div class="row bn-menu-row">
+            <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-12 bn-menu">
+                <ul>
+                    <li class="bn-menu-title">COMPANY</li>
+                    <li><a href="http://www.istarbucks.co.kr/footer/company/index.do">스타벅스 사명</a></li>
+                    <li><a href="http://www.istarbucks.co.kr/footer/company/starbucks_information.do">스타벅스 소개</a></li>
+                    <li><a href="http://www.istarbucks.co.kr/footer/company/news_list.do">국내 뉴스룸</a></li>
+                    <li><a href="http://www.istarbucks.co.kr/footer/company/news_list.do">세계의 스타벅스</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 bn-menu">
+                <ul>
+                    <li class="bn-menu-title">CORPORATE SALES</li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/co_sales/index.do">단체 및 기업 구매 안내</a></li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/co_sales/sbcard_egift.do">스타벅스 e-Gift Card</a></li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/co_sales/sbcard.do">스타벅스 카드</a></li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/co_sales/sb_product.do">스타벅스 상품</a></li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/co_sales/sbgift_certificate.do">스타벅스 상품권</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 bn-menu">
+                <ul>
+                    <li class="bn-menu-title">PARTNERSHIP</li>
+                    <li><a href="https://www.istarbucks.co.kr/footer/partnership/new_partner.do">신규 입점 제약</a></li>
+                    <li><a href="https://www.istarbucks.co.kr/srm/login.do">협력 고객사 등록신청</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 bn-menu">
+                <ul>
+                    <li class="bn-menu-title">RECRUIT</li>
+                    <li><a href="http://www.istarbucks.co.kr/footer/recruit/index.do">채용 소개</a></li>
+                    <li><a href="http://job.shinsegae.com/recruit_info/notice/notice02_view.jsp?notino=2895">채용 지원하기</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 bn-menu">
+                <ul>
+                    <li class="bn-menu-title">SNS</li>
+                    <li><a href="http://www.facebook.com" class="bn-menu-sns"><i class="fa fa-facebook-square fa-2x"></i></a><a href="https://www.instagram.com/"  class="bn-menu-sns"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="https://plus.google.com/discover" class="bn-menu-sns"><i class="fa fa-google-plus-square fa-2x"></i></a><a href="https://login.linkshare.com/sso/login" class="bn-menu-sns"><i class="fa fa-share-square fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- bottom-nav 메뉴 영역 끝-->
+        
+        <!-- bottom-nav 어워드 영역 끝-->
+        <div class="row bn-menu-award">
+            <div class="row">
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_01.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 01" />
+                </div>
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_02.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 02" />
+                </div>
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_03.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 03" />
+                </div>
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_04.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 04" />
+                </div>
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_05.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 05" />
+                </div>
+                <div class="col col-sm-2 col-xs-4">
+                    <img src="assets/images/footer_award17_06.jpg" class="bn-award-img" alt="스타벅스 수상 이미지 06" />
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    </section>
+   
+   
+   
+   
+<!-- footer 영역 시작  -->
+   
+<footer class="container footer">
+    
+    <ul class="footer-nav nav nav-pills">
+    <li><a href="#" class="navbar-link">이용약관</a></li>
+    <li><a href="#" class="navbar-link" style="color: #00b050 !important">개인정보처리방침</a></li>
+    <li><a href="#" class="navbar-link">홈페이지 이용약관</a></li>
+    <li><a href="#" class="navbar-link">사이트 맵</a></li>
+    </ul>
+    <br>
+<ul class="footer-info nav nav-pills">
+    <li>사업자등록번호: 201-81-21515 </li>
+     <li>(주)에이콘아카데미 1조</li>
+    <li>TEL: 02) 1234-5678/FAX: 02)9876-5432</li>
+    <li>개인정보 책임자 : 이정호</li>
+    </ul>
+    <br>
+    
+<ul class="copyrights nav nav-pills">
+    <p>&copy; 2017 Team 1 Jo. All Rights Reserved</p>
+    
+</ul>
+</footer>
+<!--footer영역 종료-->
+
+<script>   
+    //상단부 우측 주문 버튼
+    $("#orderBtn").click(function(){
+        alert("로그인이 필요한 기능입니다.");
+        location.href="./loginpage.html";
+    });
+    $(document).ready(function(){
+            $("#det_crc").zoom();
+        });
+</script>
+</body>
+</html>

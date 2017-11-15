@@ -1,0 +1,216 @@
+body{
+   	font-family:  'SECGCWL', sans-serif;
+   	clear:both;
+}
+/*	.container{
+		border: 1px solid red;
+	}
+	.row{
+		border:1px dotted blue;
+	}
+	.col-xs-6{
+		border: 1px solid green;
+	}	
+	.col-sm-6{
+		border: 1px solid green;
+	}*/
+	.spacer{
+		height: 50px;
+		background-color: #fff;
+	}
+
+	.spacer2{
+		height: 100px;
+		background-color: #fff;
+	}	
+
+	.Qinline{
+		display: inline-block;	
+	}
+
+	#fastlink{
+		float: left;
+		padding-top:2%;
+		padding-bottom: 2%;
+		padding-left: 17%;
+	
+	}
+	
+	#fastlink > a{
+		color: #000;
+	}
+
+	#fastlink >a:hover{
+		color:#007042;
+	}	
+
+
+/* fotorama */
+	.fotorama{
+		margin: 0 auto;
+	}
+	
+	.fotorama__wrap{
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.fotorama__nav-wrap{
+		margin: 0 auto;
+	}	
+	.fotorama__thumb-border{
+		border-color: #007042;
+	}
+
+/* 우측 div */
+
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #fff;
+}
+
+legend{
+	margin-bottom: 3px;
+	font-size: 15px;
+}
+
+#content form{
+	display: none;
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.alertM{
+	padding-top:5px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+	background-color: #f4f4f2;
+}
+
+.alertM >p{
+	margin-bottom:1px;
+}
+
+#orderBtn{
+	background-color: #007042;
+	color: #fff;
+}
+
+/* detail navigation */
+	
+	#hSpan{
+		position: relative;
+		top:18px;
+		left:20px;
+		color: #fff;
+	} 
+
+	@media(min-width: 768px){
+		#hSpan{
+		display: none;
+		} 
+	}
+
+	.glyphicon-menu-down{
+		color: #fff;
+	}
+
+	#navbar-detail{
+		background-color: #363636;
+	}
+
+	.nav-tabs {
+	  border-bottom: 1px solid #363636;
+	}	
+
+	.nav-tabs > li > .esBev {
+	  margin-right: 2px;
+	  line-height: 1.42857143;
+	  border: 1px solid transparent;
+	  border-radius: 4px 4px 0 0;
+	  color:#fff;
+	}	
+
+	.nav > li > .esBev:hover,
+	.nav > li > .esBev:focus {
+	font-weight: bold;
+  	text-decoration: none;
+  	border: 1px solid #363636;
+ 	background-color: #363636;
+ 	color: #fff;
+	}	
+
+	.nav-tabs > li.active > .esBev,
+	.nav-tabs > li.active > .esBev:hover,
+	.nav-tabs > li.active > .esBev:focus {
+	  color: #fff;
+	  font-weight: bold;
+	  cursor: default;
+	  background-color: #363636;
+	  border: 1px solid #363636;
+	  border-bottom-color: transparent;
+	}
+
+/*	.navBorder:focus::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 0;    
+    left:0;
+    bottom:0px;
+    border-bottom: 2px solid #fff;  
+	}*/
+
+/* affix */
+	.affix{
+		top:0px;
+		width: 100%;
+	}	
+	.affix-bottom{
+		position: absolute;
+	}	
+	#esBev{
+		width: 100%;
+	}
+
+	img{
+		max-width: 100%;
+	}
+	div > h1{
+		text-align: center;
+	}		
+	div > h2{
+		text-align: center;
+		font-weight: bold;
+	}	
+	div > h4{
+		text-align: center;
+	}
+
+	blockquote{
+		color:#007042;
+		font-style: italic;
+	}
+
+/*gotop*/
+#goTopBtn{
+	position: fixed;
+	bottom:30px;
+	right:30px;
+	float: right;
+	border-radius: 10%;
+	width: 58px;
+	height: 58px;
+	background-color: #363636;
+	opacity: 0.7;
+	text-align: center;
+}
+#goTopBtn span{
+	font-size: 30px;
+	color: #fff;
+	padding: 5px 0;
+}
+

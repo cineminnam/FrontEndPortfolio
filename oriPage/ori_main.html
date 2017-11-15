@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>main.html</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<style>
+	body{
+		padding-top: 50px;
+		position: relative;
+	}
+
+	.spacer{
+		height: 500px;
+		background-color: #cecece;
+	}
+
+	.spacer2{
+		height: 250px;
+		background-color: #fff;
+	}
+
+	#navbar-example{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		opacity: 0.8;
+	}
+
+	div > h3{
+		text-align: center;
+		color: #444;
+		font-weight: bold;
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+
+	#oripic1{
+		margin: 0 auto;
+	}
+
+	#oripic2{
+		height:200px;
+		margin: 0 auto;
+	}
+
+	#aBorder ul li{
+		font-size: 16px;
+	}
+
+	#aBorder{
+		border-left: 2px solid #444;
+	}
+
+	#five h5{
+		text-align: center;
+		color: #444;
+	}
+
+/*footer 시작*/
+	.footer{
+		background-color: #444;
+		height:200px;
+		position: relative;
+		padding-top: 50px;
+		padding-bottom:50px;
+	}
+
+	.footer p{
+		text-align: center;
+		color:#ccc;
+	}
+
+	#fSocial{
+		text-align: center;
+		padding-top:5px;
+		padding-bottom: 5px;
+	}
+
+	.fa-twitter-square{
+		font-size:30px;
+		color:#ccc;
+	}
+
+	.fa-facebook-square{
+		font-size:30px;
+		color:#ccc;
+	}
+
+	.fa-instagram{
+		font-size:30px;
+		color:#ccc;
+	}
+/*footer 끝*/
+
+</style>
+</head>
+
+<body data-offset="60" data-spy="scroll" data-target="#navbar-example">
+<div id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+	<div class="navbar-header">
+		<a href="#" class="navbar-brand">ORI</a>
+		<button class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" id="navMenu">
+		<!-- 네비게이션 요소 -->
+		<ul id="myNav" class="nav navbar-nav">
+			<li class="active"><a href="#one">MAIN</a></li>
+			<li><a href="#two">ABOUT</a></li>
+			<li><a href="#three">SKILL</a></li>
+			<li><a href="#four">GALLARY</a></li>
+			<li><a href="#five">SUBSCRIPTION</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<div class="container">
+	<!-- MAIN -->
+	<div id="one">
+		<h3>ORI'S WEBPAGE</h3>
+		<img id="oripic1" class="img-responsive" src="images/ori1.jpg"/>
+	</div>
+	<div class="spacer2"></div>	
+	<!-- ABOUT -->
+	<div id="two" class="container">
+		<h3>ABOUT ORI</h3>
+		<div class="row">
+			<div class="col-sm-6">
+			<img id="oripic2" class="img-responsive img-circle" src="images/ori5.jpg"/>
+			</div>
+			<div class="col-sm-6" id="aBorder">
+				<ul>
+					<li><strong>이름</strong>: 남오리</li><br/>
+					<li><strong>나이</strong>: 4세</li><br/>
+					<li><strong>성별</strong>: ♂</li><br/>
+					<li><strong>성격</strong>: 의젓함 / 쫄탱이</li>
+					<br/>
+					<li><strong>취미</strong>: 공놀이</li><br/>
+				</ul>
+			<blockquote class="blockquote-reverse">
+				<p>멍!!!</p>
+				<footer>
+					오리님께서 우리가 반가우셨을 때 
+				</footer>
+			</blockquote>
+			</div>
+		</div>
+	</div>
+	<div class="spacer2"></div>
+
+	<!-- SKILL -->
+	<div id="three">
+		<h3>ORI'S SKILLS</h3>
+		<div class="row">
+			<div class="col-sm-2 col-xs-offset-2 text-right">
+			<p>표정부자</p>
+			</div>
+			<div class="col-sm-6">
+			<div class="progress">
+      		  <div class="progress-bar progress-bar-success" style="width:90%">
+      	     90%
+     	  	  </div>
+   			</div>
+   			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-2 col-xs-offset-2 text-right">
+			<p>하루에 한 번 짖기</p>
+			</div>
+			<div class="col-sm-6">
+			<div class="progress">
+        		<div class="progress-bar progress-bar-info" style="width:40%">
+            	40%
+        		</div>
+			</div>
+			</div>
+		</div>		
+
+		<div class="row">
+			<div class="col-sm-2 col-xs-offset-2 text-right">
+			<p>빨랫감 물어오기</p>
+			</div>
+			<div class="col-sm-6">
+			<div class="progress">
+		        <div class="progress-bar progress-bar-warning" style="width:60%">
+		            60%
+		        </div>
+	    	</div>
+			</div>
+		</div>	
+
+		<div class="row">
+			<div class="col-sm-2 col-xs-offset-2 text-right">
+			<p>플라스틱 물어뜯기</p>
+			</div>
+			<div class="col-sm-6">
+			<div class="progress">
+       			 <div class="progress-bar progress-bar-danger" style="width:80%">
+           		 80%
+       			 </div>
+   			</div>
+			</div>
+		</div>				    
+	</div>
+	<div class="spacer2"></div>	
+	<div class="spacer2"></div>	
+
+	<!-- gallary -->
+	<div id="four" class="container">
+		<h3>GALLARY</h3>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/ori9.jpg"/>
+				<div class="carousel-caption">
+					<p>수영하시는 오리님</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/ori4.jpg"/>
+				<div class="carousel-caption">
+					<p>오리님의 슈나우저컷</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/ori10.jpg"/>
+				<div class="carousel-caption">
+					<p>간식을 기다리시는 강아지님들</p>
+				</div>
+			</div>
+		</div>
+		<!-- 이전, 다음 control UI -->
+		<a href="#myCarousel" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">이전</span>
+		</a>
+		<a href="#myCarousel" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">다음</span>
+		</a>
+	</div>			
+	</div>
+	<div class="spacer2"></div>	
+
+	<!-- SIGNUP -->
+	<div id="five">
+		<h3>SUBSCRIPTION</h3>
+		<h5>Come join us &amp; be Ori's biggest fan!</h5>
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<form action="">
+				<div class="form-group">
+					<label for="fname">First Name</label>
+					<input type="text" class="form-control" id="fname"/>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" class="form-control" id="email"/>
+				</div>
+				<button type="submit" class="btn btn-primary">Subscribe</button>
+				<button type="reset" class="btn btn-warning">Cancel</button>
+			</form>			
+		</div>
+	</div>
+</div>	
+	</div>
+	<div class="spacer2"></div>	
+</div>	
+
+<!-- FOOTER -->
+
+<div class="footer">
+	<div class="row" id="fSocial">
+		<div class="col-xs-6 col-xs-offset-3">
+		<a href="http://www.twitter.com"><span class="fa fa-twitter-square"></span></a>
+		<a href="http://www.facebook.com"><span class="fa fa-facebook-square"></span></a>
+		<a href="http://www.instagram.com"><span class="fa fa-instagram"></span></a>
+		</div>
+	</div>
+
+	<p>Copyright (c) 2017 Nam Hyunmyung, All Right Reserved</p>
+</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>	
+<script src="js/jquery.smooth-scroll.js"></script>
+<script>
+	$("#myNav a").smoothScroll({
+		offset:-50,
+		speed:100
+	});
+</script>
+</body>
+</html>

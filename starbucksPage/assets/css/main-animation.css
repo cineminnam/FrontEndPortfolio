@@ -1,0 +1,23 @@
+/* main banner 컵 관련 */
+.effected__cup1{
+animation-delay: 1s;
+}
+
+.effected__cup2{
+    animation-delay: 2s;
+}
+
+.effected__cup3{
+    animation-delay: 3s;
+}
+
+/* main banner 문구 관련 */
+.effected__quote{
+
+    animation-delay: 4s;
+}
+
+.effected__button{
+    animation-delay: 6s;
+}
+
